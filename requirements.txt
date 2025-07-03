@@ -8,3 +8,6 @@ ipykernel
 pymongo[srv]
 python-dotenv
 setuptools
+certifi
+PyYAML
+dill
