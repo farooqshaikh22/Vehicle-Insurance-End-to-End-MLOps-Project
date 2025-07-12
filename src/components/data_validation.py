@@ -151,14 +151,3 @@ class DataValidation:
         except Exception as e:
             raise MyException(e, sys)
         
-        
-if __name__ == "__main__":
-    ingestion_artifact = DataIngestionArtifact(
-        training_filepath="artifact/07_03_2025_14_50_13/data_ingestion/ingested/train.csv",
-        test_filepath="artifact/07_03_2025_14_50_13/data_ingestion/ingested/test.csv"
-    )
-
-    validation_config = DataValidationConfig()
-
-    data_validation = DataValidation(ingestion_artifact, validation_config)
-    data_validation.initiate_data_validation()

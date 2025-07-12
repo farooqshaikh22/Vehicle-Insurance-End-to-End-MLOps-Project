@@ -11,3 +11,4 @@ setuptools
 certifi
 PyYAML
 dill
+imbalanced-learn

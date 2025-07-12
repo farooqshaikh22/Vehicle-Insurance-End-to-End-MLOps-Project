@@ -1,21 +1,22 @@
 [project]
-name = "src"
+name = "vehicle-insurance-end-to-end-mlops-project"
 version = "0.1.0"
-description = "vehicle-insurance-end-to-end-mlops-project"
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
-    "certifi>=2025.6.15",
-    "dill",
+    "certifi>=2025.7.9",
+    "dill>=0.4.0",
+    "imbalanced-learn>=0.13.0",
     "ipykernel>=6.29.5",
     "matplotlib>=3.10.3",
-    "numpy>=2.3.1",
-    "pandas>=2.3.0",
+    "numpy>=2.2.6",
+    "pandas>=2.3.1",
     "plotly>=6.2.0",
     "pymongo[srv]>=4.13.2",
     "python-dotenv>=1.1.1",
     "pyyaml>=6.0.2",
-    "scikit-learn>=1.7.0",
+    "scikit-learn>=1.6.1",
     "seaborn>=0.13.2",
     "setuptools>=80.9.0",
 ]

@@ -4,7 +4,7 @@ from src.logger import logging
 from src.exception import MyException
 from src.entity.config_entity import DataIngestionConfig
 from src.entity.artifact_entity import DataIngestionArtifact
-from data_access.insurance_data import InsuranceData
+from src.data_access.insurance_data import InsuranceData
 from sklearn.model_selection import train_test_split
 from pandas import DataFrame
 
@@ -105,6 +105,3 @@ class DataIngestion:
         except Exception as e:
             raise MyException(e, sys)
         
-if __name__ == "__main__":
-    data_ingestion = DataIngestion()
-    data_ingestion.initiate_data_ingestion()
